@@ -1,3 +1,12 @@
+// NOTE:  you are not expected to understand the contents of this class
+//   you will be expected, inside your own class, to make and instance of
+//   this class and to call 2 methods on it.
+
+
+
+////////////////////////////////////////////
+
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -39,7 +48,7 @@ public class VirtualPetFace extends JFrame implements ActionListener{
     private Timer timer;
     
 
-    private static final String imageBase = "./pet_images/";
+    private static final String imageBase = "pet_images/";
     
     public static void main(String args[]) {
         VirtualPet newPet = new VirtualPet();   
