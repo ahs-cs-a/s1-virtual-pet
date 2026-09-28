@@ -36,4 +36,8 @@ public class VirtualPet {
         face.setImage("asleep");
     }
 
+    public void wonTheLottery(){
+        face.setImage("shocked");
+    }
+
 } // end Virtual Pet
